@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.indiasforestmatrix.Login.Loginactivity;
+import com.example.indiasforestmatrix.Navigation.Navigationdrawer;
 import com.example.indiasforestmatrix.R;
 
 public class Splashactivity extends AppCompatActivity {
@@ -19,7 +20,7 @@ public class Splashactivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(Splashactivity.this, Loginactivity.class);
+                Intent i=new Intent(Splashactivity.this, Navigationdrawer.class);
                 startActivity(i);
                 finish();
             }

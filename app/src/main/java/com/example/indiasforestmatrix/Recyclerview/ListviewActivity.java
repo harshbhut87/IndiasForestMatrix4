@@ -36,7 +36,7 @@ public class ListviewActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.list_recycle);
         POJO data2[] = {new POJO("Gir National Park", R.drawable.gir,"https://www.girnationalpark.in/book-gir-lion-safari.html")
                 ,new POJO("Sunderbans National Park", R.drawable.sunderbans,"https://www.wbtourismgov.in/destination/place/sundarban")
-                ,new POJO("Jim Corbett National Park", R.drawable.jimcorbett,"https://www.jimcorbettonlineuk.com/")
+                ,new POJO("Jim Corbett National Park", R.drawable.jimcorbett,"https://www.corbettnationalpark.in/")
                 ,new POJO("Ranthambore National Park", R.drawable.ranthambhor,"https://www.theranthamboresafari.com/")
                 ,new POJO("Bannerghatta Biological Park", R.drawable.bannerghata,"https://www.thrillophilia.com/tours/bannerghatta-national-park-safari")
                 ,new POJO("Kaziranga National Park", R.drawable.kaziranga,"https://www.kaziranganationalpark-india.com/online-kaziranga-safari-booking.html")
